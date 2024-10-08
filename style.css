@@ -1,0 +1,129 @@
+*{
+    padding: auto;
+    margin: 0;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#menusuperior{
+    background-image: url(imagens/fundosuperior.svg);
+    color: white;
+    padding-bottom: 60px;
+}
+
+#titulo-superior{
+    margin-left: 165px;
+    margin-top: 50px;
+}
+
+#texto-superior{
+    margin-left: 165px;
+    margin-top: 17px;
+}
+#menuinfo{
+    background-color: rgb(62, 62, 62);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 14px;
+}
+
+.icones{
+    margin: 50px, 0px, 30px;
+    padding: 20px;
+    margin-left: 65px;
+}
+.textoinfo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin-left: 215px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#texto1{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#carrossel{
+    background: #247BA0;
+    color: white;
+    padding: 50px;
+}
+
+#texto-carrossel{
+    text-align: center;
+    font-size: 32px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.cards{
+    margin-left: 200px;
+}
+
+#samantha{
+    display: none;
+}
+.seta{
+    margin-top: 28%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.3s;
+}
+#seta-esquerda{
+    display: none;
+}
+#formulario{
+    text-align: center;
+}
+#titulo-formulario{
+    margin: 30px;
+    color: #383838;
+}
+input{
+    background: #EAECE5;
+    font-style: bold;
+    color: black;
+    width: 350px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+button{
+    border-radius: 10px;
+    width: 250px;
+    height: 53px;
+    background: #247BA0;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #13267a;
+    transform: translateY(-2px);
+    transition: 0.2s;
+    box-shadow: 0px, 15px, 20px, 15px, #5471f383;
+}
