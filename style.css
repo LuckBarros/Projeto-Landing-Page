@@ -24,7 +24,7 @@
     margin-top: 17px;
 }
 #menuinfo{
-    background-color: rgb(62, 62, 62);
+    background: #EAECE5;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
